@@ -15,3 +15,35 @@ This repository contains all files and scripts used for my thesis titled **"Opti
 - **requirements.txt**: List of required Python libraries to run the code.
 - **LICENSE**: License for this repository.
 - **README.md**: This file.
+
+
+## How to Use
+
+### Prerequisites
+1. Python 3.7 or newer installed on your system.
+2. Gurobi Optimizer installed and configured with a valid license.
+
+### Setup Instructions
+
+1. Clone the repository:
+   ```bash
+   git clone <repository_url>
+   cd <repository_folder>
+
+2. Install the required Python libraries:
+   ```bash
+   pip install -r requirements.txt
+
+3. Install Gurobi and configure your license:
+    - Follow the Gurobi installation instructions for your operating system.
+    - Activate your Gurobi license:
+         ```bash
+         grbgetkey <YOUR_LICENSE_KEY>
+
+4. To run the main script, use:
+   ```bash
+    python main.py
+
+You can also run specific scenario analysis or parameter testing using the respective scripts.
+
+For questions or further discussion, feel free to contact me at ioanniskazantzidis1@gmail.com.
