@@ -12,5 +12,6 @@ This repository contains all files and scripts used for my thesis titled **"Opti
 - **run_model.py**: Function that takes the desired model to test and prepares it for the scenario analysis.
 - **scenario_analysis.py**: Analyzes different scenarios and outputs plots of the results.
 - **gurobi.log**: Log file from Gurobi optimization runs.
+- **requirements.txt**: List of required Python libraries to run the code.
 - **LICENSE**: License for this repository.
 - **README.md**: This file.
