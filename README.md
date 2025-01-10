@@ -5,13 +5,12 @@ This repository contains all files and scripts used for my thesis titled **"Opti
 ## Repository Structure
 
 - **Thesis_PDF.pdf**: The full thesis document, detailing the methodology, models, and results.
-- ***Combination-* folders**: Each folder contains data and files related to the results of the specific experiment combinations and scenarios analyzed in the thesis.
-- **main.py**: The primary script to initialize and run the models.
-- **models.py**: Contains model definitions for the single-period model and the 3 multi-period models.
 - **parameters.py**: Parameter definitions used across the models.
+- **models.py**: Contains model definitions for the single-period model and the 3 multi-period models.
 - **run_model.py**: Function that takes the desired model to test and prepares it for the scenario analysis.
 - **scenario_analysis.py**: Analyzes different scenarios and outputs plots of the results.
-- **gurobi.log**: Log file from Gurobi optimization runs.
+- **main.py**: The primary script to initialize and run the models.
+- ***Combination-* folders**: Each folder contains data and files related to the results of the specific experiment combinations and scenarios analyzed in the thesis.
 - **requirements.txt**: List of required Python libraries to run the code.
 - **LICENSE**: License for this repository.
 - **README.md**: This file.
