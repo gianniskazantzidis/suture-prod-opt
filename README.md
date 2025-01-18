@@ -46,3 +46,8 @@ This repository contains all files and scripts used for my thesis titled **"Opti
 You can also run specific scenario analysis or parameter testing using the respective scripts.
 
 For questions or further discussion, feel free to contact me at ioanniskazantzidis1@gmail.com.
+
+## Disclaimer
+
+All data, techniques, and details of the production process presented in this repository are entirely fictional and created solely for academic purposes. They do not reflect any real-world processes, methods, or proprietary information.
+
