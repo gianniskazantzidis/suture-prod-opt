@@ -4,7 +4,6 @@ This repository contains all files and scripts used for my thesis titled **"Opti
 
 ## Repository Structure
 
-- **Thesis_PDF.pdf**: The full thesis document, detailing the methodology, models, and results.
 - **parameters.py**: Parameter definitions used across the models.
 - **models.py**: Contains model definitions for the single-period model and the 3 multi-period models.
 - **run_model.py**: Function that takes the desired model to test and prepares it for the scenario analysis.
