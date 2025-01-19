@@ -26,8 +26,7 @@ def scenario_analysis(param_sets, run_no, model_types):
     param_sets_list = list(param_sets_dict.items())
 
     # Create directory for results if it doesn't exist
-    # directory = f"/Users/johnkazantzidis/dev/gurobi/results/file_{run_no}" # For home pc
-    directory = f"/Users/manos/dev/prod-opt/results/file_{run_no}" # For work pc
+    directory = f"/Users/johnkazantzidis/dev/gurobi/results/file_{run_no}"
     os.makedirs(directory, exist_ok=True)
     
     for model_type in model_types:
