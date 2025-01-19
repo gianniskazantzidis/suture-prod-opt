@@ -18,8 +18,7 @@ def get_next_run_number(base_path):
 
 if __name__ == "__main__":
 
-    # base_path = "/Users/johnkazantzidis/dev/gurobi/results" # For home pc
-    base_path = "/Users/manos/dev/prod-opt/results" # For work pc
+    base_path = "/Users/johnkazantzidis/dev/gurobi/results"
     run_no = get_next_run_number(base_path)
     results, directory = scenario_analysis(param_sets, run_no, model_types)
     plot_scenario_analysis(results, directory, run_no)
